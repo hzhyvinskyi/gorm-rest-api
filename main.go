@@ -24,5 +24,7 @@ func handleRequests() {
 func main() {
 	fmt.Println("GORM REST API")
 
+	initMigration()
+
 	handleRequests()
 }
